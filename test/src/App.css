@@ -1,0 +1,26 @@
+body{
+    background-color: aliceblue;
+}
+.container{
+    max-width: 1300px;
+    width: 100%;
+    margin: auto;
+    justify-content: right;
+}
+.cards{
+    display: block;
+    justify-content: center;
+}
+.card{
+    flex: 0 0 calc(33.33% - 20px);
+    width: 100%;
+    background: #fff;
+    padding: 20px;
+    border: 2px solid transparent;
+    margin-bottom: 20px;
+}
+.card:hover{
+    border-color: blue;
+}
+
+
